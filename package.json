@@ -1,16 +1,11 @@
 {
-  "name": "node-nms",
-  "version": "0.0.8",
+  "name": "@kbco/node-nms",
+  "version": "0.0.1",
   "description": "A lightweight infrastructure monitoring framework for NodeJS",
   "main": "src/index.js",
   "scripts": {
     "start": "node src/start.js"
   },
-  "keywords": [
-    "meta4",
-    "meta4beta",
-    "meta4life"
-  ],
   "author": "Troven <NodeNMS@troven.com.au> (http://NodeNMS.org/)",
   "licenses": [
     {
@@ -28,7 +23,5 @@
     "rethinkdb": "^2.0.0-2",
     "underscore": "^1.8.3"
   },
-  "devDependencies": {},
-  "preferGlobal": true,
-  "bin": {}
+  "preferGlobal": true
 }
